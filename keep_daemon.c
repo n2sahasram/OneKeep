@@ -55,6 +55,8 @@ int main(void)
 	
 		sleep(30);
 	}
+	
+	/* When out of loop , things turn to be cool :P let the daemon sleep */ 
 	exit(EXIT_SUCCESS);
 	
 }

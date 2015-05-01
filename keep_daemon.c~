@@ -37,7 +37,7 @@ int main(void)
 		exit(EXIT_FAILURE);
 	}
 	
-	/* closing all STDIN , STDOUT, STDERR to say to kernel that this piece of code is a daemon and doesnt have anything to do with User interaction */
+	/* closing all STDIN , STDOUT, STDERR */
 	close(STDIN_FILENO);
 	close(STDOUT_FILENO);
 	close(STDERR_FILENO);
